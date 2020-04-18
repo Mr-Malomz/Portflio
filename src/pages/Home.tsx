@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import HomeSVG from '../components/HomeSVG';
 import Nav from '../components/Nav';
 import GithubSVG from '../components/GithubSVG';
@@ -6,7 +6,7 @@ import LinkedinSVG from '../components/LinkedinSVG';
 import BehanceSVG from '../components/BehanceSVG';
 import TwitterSVG from '../components/TwitterSVG';
 
-const Home = () => {
+const Home: FC = () => {
 	return (
 		<div className='container-fluid home'>
 			<Nav />

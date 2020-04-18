@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { FC } from 'react';
+import { Link } from 'react-router-dom';
 
-const Nav = () => {
+const Nav: FC = () => {
 	return (
 		<nav className='navbar navbar-expand-lg navbar-light'>
-			<a className='navbar-brand home-main' href='#'>
+			<Link className='navbar-brand home-main' to='#'>
 				demola malomo
-			</a>
+			</Link>
 			<button
 				className='navbar-toggler'
 				type='button'
@@ -19,9 +20,9 @@ const Nav = () => {
 			</button>
 
 			<div className='collapse navbar-collapse' id='navbarTogglerDemo02' style={{justifyContent: 'flex-end'}}>
-				<a className=' home-main-nav' href='#'>Work</a>
-				<a className=' home-main-nav' href='#'>Blog</a>
-				<a className=' home-main-nav' href='#'>Resume</a>
+				<Link className=' home-main-nav' to='#'>Work</Link>
+				<Link className=' home-main-nav' to='#'>Blog</Link>
+				<Link className=' home-main-nav' to='#'>Resume</Link>
 			</div>
 		</nav>
 	);
