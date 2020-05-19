@@ -4,10 +4,13 @@ import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
+import { Provider, menus } from './utils/context/GlobalState';
 
 ReactDOM.render(
 	<BrowserRouter>
-		<App />
+		<Provider value={menus}>
+			<App />
+		</Provider>
 	</BrowserRouter>,
 	document.getElementById('root')
 );

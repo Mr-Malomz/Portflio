@@ -20,7 +20,7 @@ const Nav: FC = () => {
 			</button>
 
 			<div className='collapse navbar-collapse' id='navbarTogglerDemo02' style={{justifyContent: 'flex-end'}}>
-				<Link className=' home-main-nav' to='#'>Work</Link>
+				<Link className=' home-main-nav' to='/works'>Works</Link>
 				<Link className=' home-main-nav' to='#'>Blog</Link>
 				<Link className=' home-main-nav' to='#'>Resume</Link>
 			</div>

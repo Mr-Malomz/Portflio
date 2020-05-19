@@ -19,16 +19,16 @@ const NavWork: FC<IPath> = ({ path }) => {
 					<path
 						d='M28.5938 46.875L11.7188 30L28.5938 13.125'
 						stroke='#4831D4'
-						stroke-width='5'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='5'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<path
 						d='M14.0625 30H48.2812'
 						stroke='#4831D4'
-						stroke-width='5'
-						stroke-linecap='round'
-						stroke-linejoin='round'
+						strokeWidth='5'
+						strokeLinecap='round'
+						strokeLinejoin='round'
 					/>
 					<rect x='0.5' y='0.5' width='59' height='59' stroke='white' />
 				</svg>
