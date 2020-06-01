@@ -1,4 +1,4 @@
-Personal portfolio site built with react and bootstrap with Typescript.
+Personal portfolio site built with react and bootstrapped with Typescript.
 
 ## Design Link
 
