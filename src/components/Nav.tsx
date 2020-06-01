@@ -19,10 +19,30 @@ const Nav: FC = () => {
 				<span className='navbar-toggler-icon'></span>
 			</button>
 
-			<div className='collapse navbar-collapse' id='navbarTogglerDemo02' style={{justifyContent: 'flex-end'}}>
-				<Link className=' home-main-nav' to='/works'>Works</Link>
-				<Link className=' home-main-nav' to='#'>Blog</Link>
-				<Link className=' home-main-nav' to='#'>Resume</Link>
+			<div
+				className='collapse navbar-collapse'
+				id='navbarTogglerDemo02'
+				style={{ justifyContent: 'flex-end' }}
+			>
+				<Link className=' home-main-nav' to='/works'>
+					Works
+				</Link>
+				<a
+					className=' home-main-nav'
+					href='https://medium.com/@demlabz'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					Blog
+				</a>
+				<a
+					className=' home-main-nav'
+					href='https://drive.google.com/file/d/1SNXx9LXmOAsTgN1waXM0I2_76vXdMaj4/view?usp=sharing'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					Resume
+				</a>
 			</div>
 		</nav>
 	);

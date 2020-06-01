@@ -1,11 +1,11 @@
-import React, { createContext} from "react";
+import React, { createContext } from 'react';
 import Super_Admin from '../Super_Admin.png';
 import raphael_github from '../raphael_github.png';
 import netflix_clone from '../Netflix_cloned.png';
 import gallerypix from '../gallerypix.png';
 import codepen from '../codepen.png';
 
- export const menus = [
+export const menus = [
 	{
 		id: 1,
 		name: 'MakeMe',
@@ -16,8 +16,8 @@ import codepen from '../codepen.png';
 				'A personnel and businness management system built with react, redux, and laravel powered backend. It includes authorization & authentication (role-base), form inputs and validation with regex.',
 			github: 'https://github.com/Mr-Malomz/MakeMe-Project',
 			demo: null,
-        },
-        image: Super_Admin
+		},
+		image: Super_Admin,
 	},
 	{
 		id: 2,
@@ -30,8 +30,8 @@ import codepen from '../codepen.png';
 				'Netflix clone is a clone of netflix UI built with react, react-loadables and styled-components to implement component based styling',
 			github: 'https://github.com/Mr-Malomz/netflix-clone',
 			demo: 'https://netflix-cloned.netlify.app/',
-        },
-        image: netflix_clone
+		},
+		image: netflix_clone,
 	},
 	{
 		id: 3,
@@ -42,10 +42,10 @@ import codepen from '../codepen.png';
 			name: 'GalleryPix',
 			description:
 				'GalleryPix is web application that let’s users search for the top 10 pictures using unsplash api. It integrates the use of both functional and class-based component management',
-            github: 'https://github.com/Mr-Malomz/gallery',
-            demo: 'https://gallerypix.netlify.app/',
-        },
-        image: gallerypix
+			github: 'https://github.com/Mr-Malomz/gallery',
+			demo: 'https://gallerypix.netlify.app/',
+		},
+		image: gallerypix,
 	},
 	{
 		id: 4,
@@ -56,25 +56,25 @@ import codepen from '../codepen.png';
 			name: 'Acme Industry',
 			description:
 				'A basic CRUD app built with django framewwork. It involves the use of django templating engine for code splitting and reuseability, django-orm for database operations and View methodology for handling forms',
-            github: 'https://github.com/Mr-Malomz/acme',
+			github: 'https://github.com/Mr-Malomz/acme',
 			demo: null,
-        },
-        image: raphael_github
-    },
-    {
-        id: 5,
-        name: 'Codepen Link',
-        description:
-            'Collection of mini apps hosted on codepen',
-        details: {
-            name: 'Codepen Link',
-            description:
-                'Codepen Link highlights my journey into software develpment. It showcases collection of mini projects using html, css, svg, javascript,  jquery, react, redux e.t.c.',
-            github: 'https://github.com/Mr-Malomz?tab=repositories&q=&type=&language=',
-            demo: 'https://codepen.io/malomz',
-        },
-        image: codepen
-    },
+		},
+		image: raphael_github,
+	},
+	{
+		id: 5,
+		name: 'Codepen Link',
+		description: 'Collection of mini apps hosted on codepen',
+		details: {
+			name: 'Codepen Link',
+			description:
+				'Codepen Link highlights my journey into software develpment. It showcases collection of mini projects using html, css, svg, javascript,  jquery, react, redux e.t.c.',
+			github:
+				'https://github.com/Mr-Malomz?tab=repositories&q=&type=&language=',
+			demo: 'https://codepen.io/malomz',
+		},
+		image: codepen,
+	},
 ];
 
 const MenuContext = createContext(menus);
