@@ -2,7 +2,7 @@ import React, { createContext } from 'react';
 import Super_Admin from '../Super_Admin.png';
 import raphael_github from '../raphael_github.png';
 import netflix_clone from '../Netflix_clone.png';
-import gallerypix from '../gallerypix.png';
+import gallerypix from '../gallerypixx.png';
 import codepen from '../codepen.png';
 
 export const menus = [
