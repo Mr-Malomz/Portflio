@@ -1,7 +1,7 @@
 import React, { createContext } from 'react';
 import Super_Admin from '../Super_Admin.png';
 import raphael_github from '../raphael_github.png';
-import netflix_clone from '../Netflix_cloned.png';
+import netflix_cloned from '../Netflix_cloned.png';
 import gallerypix from '../gallerypix.png';
 import codepen from '../codepen.png';
 
@@ -31,7 +31,7 @@ export const menus = [
 			github: 'https://github.com/Mr-Malomz/netflix-clone',
 			demo: 'https://netflix-cloned.netlify.app/',
 		},
-		image: netflix_clone,
+		image: netflix_cloned,
 	},
 	{
 		id: 3,
