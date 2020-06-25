@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import { createContext } from 'react';
 import Super_Admin from '../Super_Admin.png';
 import raphael_github from '../raphael_github.png';
 import netflix_clone from '../Netflix_clone.png';

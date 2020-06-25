@@ -17,7 +17,12 @@ const WorkDetail: FC<Props> = (props) => {
 
 	useEffect(() => {
 		tl.fromTo(imgContainer.current, 1, { y: 50 }, { y: 0 });
-		tl.fromTo(detailsCont.current, 1, { x: 50, opacity: 0 }, { x: 0, opacity: 1 });
+		tl.fromTo(
+			detailsCont.current,
+			1,
+			{ x: 50, opacity: 0 },
+			{ x: 0, opacity: 1 }
+		);
 		return () => {};
 	}, []);
 
@@ -60,6 +65,7 @@ const WorkDetail: FC<Props> = (props) => {
 																	.github
 															}
 															target='_blank'
+															rel='noopener noreferrer'
 															className='github'
 														>
 															<GithubSVG />{' '}
@@ -72,6 +78,7 @@ const WorkDetail: FC<Props> = (props) => {
 																		.demo
 																}
 																target='_blank'
+																rel='noopener noreferrer'
 																className='demo'
 															>
 																<DemoSVG />{' '}
