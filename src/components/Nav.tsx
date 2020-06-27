@@ -37,7 +37,7 @@ const Nav: FC = () => {
 				</a>
 				<a
 					className=' home-main-nav'
-					href='https://drive.google.com/file/d/1SNXx9LXmOAsTgN1waXM0I2_76vXdMaj4/view?usp=sharing'
+					href='https://drive.google.com/file/d/1gN2FLDBN8CiwGvzgtDtwciWppARozA9L/view?usp=sharing'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
