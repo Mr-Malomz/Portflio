@@ -53,6 +53,9 @@
 				}
 			}
 		}
+		@media (max-width: 750px) {
+			position: relative;
+		}
 	}
 
 	.hero-sect {
@@ -117,11 +120,9 @@
 		@media (max-width: 750px) {
 			.title-cont {
 				padding: 30px;
-				top: 25%;
+				top: 0;
 			}
 		}
-
-		
 	}
 
 	.sect-socials {
@@ -345,6 +346,7 @@
 
 			.work-main {
 				margin-right: 0px;
+				font-size: 16px !important;
 			}
 		}
 		.img-med {
