@@ -44,7 +44,7 @@ const WorkDetail: FC<Props> = (props) => {
 												>
 													<img
 														src={menu.image}
-														alt=''
+														alt={menu.name}
 													/>
 												</div>
 												<div

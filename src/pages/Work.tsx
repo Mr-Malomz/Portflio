@@ -17,8 +17,14 @@ const Work: FC = () => {
 										key={menu.id}
 										className='col-lg-6 col-md-6 col-sm-12 mb-3 p-5 row  justify-content-center align-items-center img-med'
 									>
-										<a href={`/workdetails/${menu.id}`} className='image-wrap'>
-											<img src={menu.image} alt='' />
+										<a
+											href={`/workdetails/${menu.id}`}
+											className='image-wrap'
+										>
+											<img
+												src={menu.image}
+												alt={menu.name}
+											/>
 											<div className='text-container'>
 												<div>
 													<h6>{menu.name}</h6>
