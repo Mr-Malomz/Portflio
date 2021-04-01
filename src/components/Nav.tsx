@@ -29,7 +29,7 @@ const Nav: FC = () => {
 				</Link>
 				<a
 					className=' home-main-nav'
-					href='https://medium.com/@demlabz'
+					href='https://malomz.medium.com'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
